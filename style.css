@@ -1,0 +1,64 @@
+#nav-bar {
+    background-color: maroon;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 100px;
+    padding: 5px; 
+}
+
+.large-red {
+    font-size: 36px;
+    color: red;
+    position: relative;
+   /*left:45%;*/
+   text-align: center;
+}
+
+.small-green {
+    font-size: 18px;
+    color: green;
+}
+
+body{
+    height:1500px;
+    background: linear-gradient(#adadad, #FFFFFF);
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    background-color: rgb(33, 137, 168);
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: maroon;
+}
+.wrap{ /*position: relative;*/
+    text-align: center; 
+   }
+
+.on-my-own {
+    font-size: 22px;
+    color:limegreen;
+    text-align: center;
+}
+
+/* 이거  주석처리한 부분은 왜 안되는건지 물어보셈
+p.video{
+   position: relative;
+    left:40%;
+   
+    
+}
+.wrap > ul{
+    list-style:none;
+    position: relative;
+    left:40%;
+   
+}
+li{
+    float:left;
+}*/
